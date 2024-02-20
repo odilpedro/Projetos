@@ -1,51 +1,81 @@
-
 *{
     padding: 0px;
     margin: 0px;
 }
 
 body{
-background-size: cover;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.212) ), url(./imagens/01.jpg.5a28d3cad1e54b06b59c2efd10560968.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.822)),url(./imagens/backgroundbody.jpg);
+    background-size: cover;
+    height: 900px;
     font-family: Arial, Helvetica, sans-serif;
+   
 }
-
 nav{
-display: flex;
-flex-direction: row;
-font-size: 20px;
-font-family: Arial, Helvetica, sans-serif;
-background-color: rgba(0, 0, 0, 0.151);
-
-padding: 10px;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
 }
 
-nav #div2 {
-    margin-left: auto;
-    padding-right: 20px;
+#nav1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 60%;
 }
 
-nav a{
-    color: white;
-    text-decoration: none;
-    padding: 10px;
+#nav1  a{
     
-    transition-duration: 0.7s;
-    border-radius: 5px;
-    margin-left: 20px;
-    font-weight: bold;
-}
-
-nav a:hover{
-text-decoration: underline;
-color: coral;
-background-color: black;
-}
-
-header{
-    margin-top: 20px;
-    font-weight: bold;
+    margin-left: 160px;
     color: white;
-    margin-left: 20px;
+    font-size: 21px;
+    text-decoration: none;
+    
+    border-radius: 5px;
+    
+}
+
+#nav1  a:hover{
+    
+    color: rgb(24, 255, 197);
+   
+    transition-duration: 0.7s;
+    text-decoration: underline;
+}
+
+#nav2{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 40%; 
+   justify-content:right;
+
+
+   
+}
+
+#nav2  a{
+    
+    
+    color: white;
+    font-size: 21px;
+    text-decoration: none;
+    margin-right: 50px;
+    
+    
+}
+
+#nav2  a:hover{
+    
+    color: rgb(24, 255, 197);
+   
+    text-decoration: underline;
+    transition-duration: 0.7s;
+}
+main{
+    margin: auto;
+    width: 70%;
+    background-color: white;
+    margin-top: 100px;
 }
